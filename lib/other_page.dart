@@ -7,12 +7,17 @@ class OtherPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Other'),
+        title: const Text('Come back with this button'),
       ),
-      body: const Center(
-        child: Text(
-          'Other',
-          style: TextStyle(fontSize: 52.0),
+      body: const Padding(
+        padding: EdgeInsets.all(8.0),
+        child: Center(
+          child: Text(
+            'You\'ve rechead -1, number unavailable, just come back',
+            style: TextStyle(
+              fontSize: 30.0,
+            ),
+          ),
         ),
       ),
     );
